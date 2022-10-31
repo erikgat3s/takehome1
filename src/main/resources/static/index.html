@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Biodata</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>Biodata</div>
+        <hr/>
+        <form method="post" enctype="multipart/form-data" action="/biodata">
+            Nama Lengkap    : <input type="text" name="inputnama"/><br/>
+            Tanggal Lahir  : <input type="date" name="inputtanggal"/><br/>
+            Foto  : <input type="file" name="inputfoto" accept="image/png, image/jpeg" required=""/><br/>
+            <input type="submit" value="Enter"/>
+        </form>
+    </body>
+</html>
